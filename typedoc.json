@@ -1,0 +1,13 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "tsconfig": "tsconfig.lib.json",
+    "entryPoints": ["./src/index.ts", "./src/run/index.ts", "./src/utils/index.ts"],
+    "out": "docs",
+    "sort":[
+        "static-first",
+        "instance-first",
+        "visibility",
+        "source-order"
+    ],
+    "readme": "./src/README.md"
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+      "rootDir": "./src",
+      "baseUrl": "./src",
+      "outDir": "./lib",
+      "declaration": true,
+  },
+  "exclude": [
+    "app",
+    "index.ts"
+  ]
+}

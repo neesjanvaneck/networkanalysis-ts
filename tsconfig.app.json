@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+      "paths": {
+        "networkanalysis-ts": ["src"],
+        "networkanalysis-ts/*": ["src/*"],
+      },
+      "rootDir": "./",
+      "baseUrl": "./",
+      "outDir": "./dist",
+      "declaration": false,
+  },
+}

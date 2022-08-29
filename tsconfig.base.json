@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+      "declaration": false,
+
+      "downlevelIteration": true,
+      "alwaysStrict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictPropertyInitialization": true,
+      "strictFunctionTypes": true,
+      "noImplicitThis": true,
+      "strictBindCallApply": true,
+
+      "allowSyntheticDefaultImports": true,
+      "sourceMap": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "emitDecoratorMetadata": true,
+      "noEmit": true,
+      "experimentalDecorators": true,
+      "target": "es5",
+      "typeRoots": [
+          "node_modules/@types"
+      ],
+      "lib": [
+          "es2017",
+          "es2016",
+          "es2015",
+          "dom"
+      ]
+  },
+  "exclude": [
+      "node_modules",
+      "*/node_modules/*"
+  ]
+}

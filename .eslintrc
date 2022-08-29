@@ -1,0 +1,70 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
+    "standard"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "plugins": [
+    "svelte3"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": ["*.svelte"],
+      "processor": "svelte3/svelte3",
+      "rules": {
+        "import/first": "off",
+        "import/no-duplicates": "off",
+        "import/no-mutable-exports": "off",
+        "import/no-unresolved": "off"
+      }
+    }
+  ],
+  "rules": {
+    "object-curly-spacing": ["error", "always"],
+    "prefer-template": "error",
+    "no-useless-constructor": "off",
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "import/first": ["error", "absolute-first"],
+    "comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+    }],
+    "indent": ["error", 2],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "no-undef": 0,
+    "no-unused-vars": 0,
+    "no-unused-expressions": "off",
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 2, "maxEOF": 0 }],
+    "@typescript-eslint/member-ordering": "error",
+    "@typescript-eslint/explicit-member-accessibility": "error",
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "consistent-return": "error",
+    "@typescript-eslint/no-explicit-any": ["error"],
+    "@typescript-eslint/no-unused-expressions": ["error"],
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "enum",
+        "format": ["PascalCase"]
+      },
+      {
+        "selector": "enumMember",
+        "format": ["PascalCase"]
+      }
+    ]
+  }
+}
