@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: "software"
+authors:
+  - family-names: "van Eck"
+    given-names: "Nees Jan"
+    orcid: "https://orcid.org/0000-0001-8448-4521"
+    email: "ecknjpvan@cwts.leidenuniv.nl"
+    affiliation: "Centre for Science and Technology Studies (CWTS), Leiden University"
+title: "networkanalysis-ts"
+abstract: "This package is a TypeScript port of the networkanalysis package written in Java. The package provides algorithms and data structures for network analysis. Currently, the package focuses on clustering (or community detection) and layout (or mapping) of networks. In particular, the package contains an implementation of the Leiden algorithm and the Louvain algorithm for network clustering and the VOS technique for network layout. Only undirected networks are supported."
+keywords:
+  - network analysis
+  - clustering
+  - community detection
+  - clustering algorithm
+  - Leiden algorithm
+  - Louvain algorithm
+  - layout
+  - mapping
+  - layout algorithm
+  - VOS technique
+  - typescript
+url: "https://github.com/neesjanvaneck/networkanalysis-ts#readme"
+repository-code: "https://github.com/neesjanvaneck/networkanalysis-ts"
+repository-artifact: "https://www.npmjs.com/package/networkanalysis-ts"
+license: MIT
+doi: 10.5281/zenodo.7221171
+version: 1.0.0
+date-released: 2022-08-29
