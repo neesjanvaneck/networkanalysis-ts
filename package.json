@@ -30,7 +30,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development rollup --config rollup.config.app.js --watch",
     "build:app": "rm -rf dist && cross-env NODE_ENV=production rollup --config rollup.config.app.js",
-    "build:lib": "rm -rf lib && rollup --config rollup.config.lib.js && cp ./{package.json,./LICENSE,./README.md} ./lib",
+    "build:lib": "rm -rf lib && rollup --config rollup.config.lib.js && cp ./package.json ./LICENSE ./README.md ./lib",
     "build": "npm run build:lib && npm run build:app",
     "docs": "npx typedoc --options typedoc.json",
     "lint": "eslint ./src ./app --ext .ts,.svelte --ignore-path .gitignore",
