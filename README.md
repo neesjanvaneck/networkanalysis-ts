@@ -1,5 +1,11 @@
 # networkanalysis-ts
 
+[![Build main branch](https://github.com/neesjanvaneck/networkanalysis-ts/workflows/Build%20main%20branch/badge.svg?branch=main)](https://github.com/neesjanvaneck/networkanalysis-ts/actions)
+[![License: MIT](https://badgen.net/github/license/neesjanvaneck/networkanalysis-ts?label=License&color=yellow)](https://github.com/neesjanvaneck/networkanalysis-ts/blob/main/LICENSE)
+[![Latest release](https://badgen.net/github/release/neesjanvaneck/networkanalysis-ts?label=Release)](https://github.com/neesjanvaneck/networkanalysis-ts/releases)
+[![npm version](https://badgen.net/npm/v/networkanalysis-ts)](https://www.npmjs.com/package/networkanalysis-ts)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7221171.svg)](https://doi.org/10.5281/zenodo.7221171)
+
 This package is a TypeScript port of the [networkanalysis](https://github.com/CWTSLeiden/networkanalysis) package written in Java. The package provides algorithms and data structures for network analysis. Currently, the package focuses on clustering (or community detection) and layout (or mapping) of networks. In particular, the package contains an implementation of the [Leiden algorithm](https://doi.org/10.1038/s41598-019-41695-z) and the [Louvain algorithm](https://doi.org/10.1088/1742-5468/2008/10/P10008) for network clustering and the [VOS technique](https://doi.org/10.1002/asi.21421) for network layout. Only undirected networks are supported.
 
 The networkanalysis-ts package was developed by [Nees Jan van Eck](https://orcid.org/0000-0001-8448-4521) at the [Centre for Science and Technology Studies (CWTS)](https://www.cwts.nl) at [Leiden University](https://www.universiteitleiden.nl/en) and benefited from contributions by [Olya Stukova](https://github.com/Stukova) and [Nikita Rokotyan](https://github.com/Rokotyan) from [Interacta](https://interacta.io). The networkanalysis package written in Java on which networkanalysis-ts is based was developed by [Vincent Traag](https://orcid.org/0000-0003-3170-3879), [Nees Jan van Eck](https://orcid.org/0000-0001-8448-4521), and [Ludo Waltman](https://orcid.org/0000-0001-8249-1752).
